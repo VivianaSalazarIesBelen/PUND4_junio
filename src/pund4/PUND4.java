@@ -14,10 +14,10 @@ public class PUND4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        operativa_Apuesta();
+        operativa_Apuesta(10);
     }
 
-    private static void operativa_Apuesta() {
+    private static void operativa_Apuesta(int dinero) {
         Apuesta laApuesta;
         int mi_dinero;
         
