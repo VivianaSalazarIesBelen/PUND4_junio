@@ -4,43 +4,70 @@
  */
 package pund4;
 
-
+/**
+ * La clase Apuesta representa una apuesta en un partido de fútbol, con información sobre los goles
+ * marcados por el equipo local y visitante, así como el monto apostado y el saldo disponible.
+ */
 public class Apuesta {
-
-   
-    public int getGoles_local() {
-        return goles_local;
-    }
-
-    
-    public void setGoles_local(int goles_local) {
-        this.goles_local = goles_local;
-    }
-
-   
-    public int getGoles_visitante() {
-        return goles_visitante;
-    }
-
-    
-    public void setGoles_visitante(int goles_visitante) {
-        this.goles_visitante = goles_visitante;
-    }
-
-    
-    public int getApostado() {
-        return apostado;
-    }
-
-    
-    public void setApostado(int apostado) {
-        this.apostado = apostado;
-    }
 
     private int dinero_disp;
     private int goles_local;
     private int goles_visitante;
     private int apostado;
+
+    /**
+     * Obtiene la cantidad de goles previstos para el equipo local.
+     *
+     * @return la cantidad de goles del equipo local
+     */
+    public int getGoles_local() {
+        return goles_local;
+    }
+
+    /**
+     * Establece la cantidad de goles previstos para el equipo local.
+     *
+     * @param goles_local la cantidad de goles del equipo local
+     */
+    public void setGoles_local(int goles_local) {
+        this.goles_local = goles_local;
+    }
+
+    /**
+     * Obtiene la cantidad de goles previstos para el equipo visitante.
+     *
+     * @return la cantidad de goles del equipo visitante
+     */
+    public int getGoles_visitante() {
+        return goles_visitante;
+    }
+
+    /**
+     * Establece la cantidad de goles previstos para el equipo visitante.
+     *
+     * @param goles_visitante la cantidad de goles del equipo visitante
+     */
+    public void setGoles_visitante(int goles_visitante) {
+        this.goles_visitante = goles_visitante;
+    }
+
+    /**
+     * Obtiene la cantidad de dinero apostado.
+     *
+     * @return la cantidad de dinero apostado
+     */
+    public int getApostado() {
+        return apostado;
+    }
+
+    /**
+     * Establece la cantidad de dinero apostado.
+     *
+     * @param apostado la cantidad de dinero apostado
+     */
+    public void setApostado(int apostado) {
+        this.apostado = apostado;
+    }
 
     /*Contructor por defecto*/
     public Apuesta() {

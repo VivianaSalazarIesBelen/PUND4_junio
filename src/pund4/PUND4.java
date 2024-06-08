@@ -5,8 +5,7 @@
 package pund4;
 
 /**
- *
- * @author javie
+ * La clase Apuesta representa una apuesta con un monto de dinero, un factor y un resultado.
  */
 public class PUND4 {
 
@@ -15,6 +14,7 @@ public class PUND4 {
      */
     public static void main(String[] args) {
         operativa_Apuesta(10);
+        
     }
 
     private static void operativa_Apuesta(int dinero) {
